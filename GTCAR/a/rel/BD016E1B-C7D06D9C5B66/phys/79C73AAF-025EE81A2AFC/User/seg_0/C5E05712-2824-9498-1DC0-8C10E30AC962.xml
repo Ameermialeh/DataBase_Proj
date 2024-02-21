@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="C##AMEER" directorySegmentName="seg_0" id="C5E05712-2824-9498-1DC0-8C10E30AC962">
+<sourceConnName>project</sourceConnName>
+<sourceObjName>C##AMEER</sourceObjName>
+<createdBy>ameer</createdBy>
+<createdTime>2022-05-06 20:34:45 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<schemaObject>FFA77DA6-1567-DC32-F500-B2A3835BDEFF</schemaObject>
+<defTableSpace>0C271785-B022-1729-BC2D-8C828D8F7DCF</defTableSpace>
+<privileges>UNLIMITED TABLESPACE</privileges>
+</UserOraclev10g>

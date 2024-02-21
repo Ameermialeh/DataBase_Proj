@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F2ECCAC-31DC-D284-5FEE-A182655CC79A" schemaObject="FFA77DA6-1567-DC32-F500-B2A3835BDEFF" name="PRODCAR">
+<sourceConnName>project</sourceConnName>
+<sourceObjSchema>C##AMEER</sourceObjSchema>
+<sourceObjName>PRODCAR</sourceObjName>
+<createdBy>ameer</createdBy>
+<createdTime>2022-05-06 20:34:45 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROD_ID" id="65089B0B-D485-653B-1104-AC345424814C">
+<sourceConnName>project</sourceConnName>
+<sourceObjSchema>PRODCAR</sourceObjSchema>
+<sourceObjName>PROD_ID</sourceObjName>
+<createdBy>ameer</createdBy>
+<createdTime>2022-05-06 20:34:45 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D0A879D-487C-15A7-0520-515248D391A5" referredColumn="0F597F6A-4C2A-57D9-FC6C-37BBD99D9B92"/>
+</associations>
+</Column>
+<Column name="CAR_ID" id="9138F21B-A58D-C025-6050-423916BBE43C">
+<sourceConnName>project</sourceConnName>
+<sourceObjSchema>PRODCAR</sourceObjSchema>
+<sourceObjName>CAR_ID</sourceObjName>
+<createdBy>ameer</createdBy>
+<createdTime>2022-05-06 20:34:45 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D811046A-D8CA-2D01-87F4-6C0848B89A3D" referredColumn="7F17505A-A081-1ECA-5DFD-F0C9A229FD63"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B11B275-194A-AFF4-9562-26DE961A942A" name="PRODCAR_PRODUCT_FK">
+<createdBy>ameer</createdBy>
+<createdTime>2022-05-06 20:35:23 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65089B0B-D485-653B-1104-AC345424814C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58468DFD-C786-9D5A-D7D8-ECAE3CFCF3C0" name="PRODCAR_CAR_FK">
+<createdBy>ameer</createdBy>
+<createdTime>2022-05-06 20:35:23 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9138F21B-A58D-C025-6050-423916BBE43C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

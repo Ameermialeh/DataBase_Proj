@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CAR" directorySegmentName="seg_0" id="AFF791C3-67D6-AF0E-3619-750E88B1210F">
+<createdBy>ameer</createdBy>
+<createdTime>2022-05-06 20:35:01 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<schemaObject>FFA77DA6-1567-DC32-F500-B2A3835BDEFF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1EA6DB15-5282-8CE3-78C0-523E8EE58975</segment>
+<tableSpace>0C271785-B022-1729-BC2D-8C828D8F7DCF</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CAR_TYPE" id="71F32AC7-A99C-7D39-5BBD-87BFEA8A2C9F">
+<createdBy>ameer</createdBy>
+<createdTime>2022-05-06 20:35:01 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAR_ID" id="7F17505A-A081-1ECA-5DFD-F0C9A229FD63">
+<createdBy>ameer</createdBy>
+<createdTime>2022-05-06 20:35:01 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAR_NAME" id="CA960D29-C529-4400-F14E-0E66329935CD">
+<createdBy>ameer</createdBy>
+<createdTime>2022-05-06 20:35:01 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CAR_PK" id="4B05D5E4-3833-94E9-FA0C-245C86A0225A">
+<createdBy>ameer</createdBy>
+<createdTime>2022-05-06 20:35:01 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<schemaObject>FFA77DA6-1567-DC32-F500-B2A3835BDEFF</schemaObject>
+<segment>DC5E130A-9256-E454-AF66-62B47B7EE7F3</segment>
+<tableSpace>0C271785-B022-1729-BC2D-8C828D8F7DCF</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CAR_PK" id="34DAE307-6A77-D3FF-9CD4-727597DA4D32">
+<createdBy>ameer</createdBy>
+<createdTime>2022-05-06 20:35:01 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<segment>DC5E130A-9256-E454-AF66-62B47B7EE7F3</segment>
+<tableSpace>0C271785-B022-1729-BC2D-8C828D8F7DCF</tableSpace>
+<existingIndex>4B05D5E4-3833-94E9-FA0C-245C86A0225A</existingIndex>
+<indexSegment>DC5E130A-9256-E454-AF66-62B47B7EE7F3</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

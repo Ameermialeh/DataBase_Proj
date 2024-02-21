@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B395AA1B-3A1B-4643-8F5D-2FB6F9998978" schemaObject="FFA77DA6-1567-DC32-F500-B2A3835BDEFF" name="PRODUCT">
+<sourceConnName>project</sourceConnName>
+<sourceObjSchema>C##AMEER</sourceObjSchema>
+<sourceObjName>PRODUCT</sourceObjName>
+<createdBy>ameer</createdBy>
+<createdTime>2022-05-06 20:34:49 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROD_ID" id="0F597F6A-4C2A-57D9-FC6C-37BBD99D9B92">
+<sourceConnName>project</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>PROD_ID</sourceObjName>
+<createdBy>ameer</createdBy>
+<createdTime>2022-05-06 20:34:49 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_NAME" id="4E18FAA2-658A-88AF-0FF7-E5078F34CACF">
+<sourceConnName>project</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>PROD_NAME</sourceObjName>
+<createdBy>ameer</createdBy>
+<createdTime>2022-05-06 20:34:49 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUANTITY" id="AF05FCA9-7C6B-35DE-5071-652EDB30D242">
+<sourceConnName>project</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>QUANTITY</sourceObjName>
+<createdBy>ameer</createdBy>
+<createdTime>2022-05-06 20:34:49 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_OF_PURCHASE" id="BC857F5F-17A4-15A4-F382-BFC804772992">
+<sourceConnName>project</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>DATE_OF_PURCHASE</sourceObjName>
+<createdBy>ameer</createdBy>
+<createdTime>2022-05-06 20:34:49 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRICE" id="D23FCAD0-F312-2FF9-AFBC-4E379B90DEF6">
+<sourceConnName>project</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>PRICE</sourceObjName>
+<createdBy>ameer</createdBy>
+<createdTime>2022-05-06 20:34:49 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C34DF83-B032-302E-D2CA-32451280A016" name="PRODUCT_PK">
+<sourceConnName>project</sourceConnName>
+<sourceObjSchema>C##AMEER</sourceObjSchema>
+<sourceObjName>PRODUCT_PK</sourceObjName>
+<createdBy>ameer</createdBy>
+<createdTime>2022-05-06 20:34:49 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F597F6A-4C2A-57D9-FC6C-37BBD99D9B92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEF62D06-FAE9-B8D2-7EA9-FBBF30E58BC5" schemaObject="FFA77DA6-1567-DC32-F500-B2A3835BDEFF" name="PRODUCT_PK">
+<sourceConnName>project</sourceConnName>
+<sourceObjSchema>C##AMEER</sourceObjSchema>
+<sourceObjName>PRODUCT_PK</sourceObjName>
+<createdBy>ameer</createdBy>
+<createdTime>2022-05-06 20:34:49 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F597F6A-4C2A-57D9-FC6C-37BBD99D9B92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFF791C3-67D6-AF0E-3619-750E88B1210F" schemaObject="FFA77DA6-1567-DC32-F500-B2A3835BDEFF" name="CAR">
+<sourceConnName>project</sourceConnName>
+<sourceObjSchema>C##AMEER</sourceObjSchema>
+<sourceObjName>CAR</sourceObjName>
+<createdBy>ameer</createdBy>
+<createdTime>2022-05-06 20:35:01 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CAR_TYPE" id="71F32AC7-A99C-7D39-5BBD-87BFEA8A2C9F">
+<sourceConnName>project</sourceConnName>
+<sourceObjSchema>CAR</sourceObjSchema>
+<sourceObjName>CAR_TYPE</sourceObjName>
+<createdBy>ameer</createdBy>
+<createdTime>2022-05-06 20:35:01 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAR_NAME" id="CA960D29-C529-4400-F14E-0E66329935CD">
+<sourceConnName>project</sourceConnName>
+<sourceObjSchema>CAR</sourceObjSchema>
+<sourceObjName>CAR_NAME</sourceObjName>
+<createdBy>ameer</createdBy>
+<createdTime>2022-05-06 20:35:01 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAR_ID" id="7F17505A-A081-1ECA-5DFD-F0C9A229FD63">
+<sourceConnName>project</sourceConnName>
+<sourceObjSchema>CAR</sourceObjSchema>
+<sourceObjName>CAR_ID</sourceObjName>
+<createdBy>ameer</createdBy>
+<createdTime>2022-05-06 20:35:01 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34DAE307-6A77-D3FF-9CD4-727597DA4D32" name="CAR_PK">
+<sourceConnName>project</sourceConnName>
+<sourceObjSchema>C##AMEER</sourceObjSchema>
+<sourceObjName>CAR_PK</sourceObjName>
+<createdBy>ameer</createdBy>
+<createdTime>2022-05-06 20:35:01 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F17505A-A081-1ECA-5DFD-F0C9A229FD63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B05D5E4-3833-94E9-FA0C-245C86A0225A" schemaObject="FFA77DA6-1567-DC32-F500-B2A3835BDEFF" name="CAR_PK">
+<sourceConnName>project</sourceConnName>
+<sourceObjSchema>C##AMEER</sourceObjSchema>
+<sourceObjName>CAR_PK</sourceObjName>
+<createdBy>ameer</createdBy>
+<createdTime>2022-05-06 20:35:01 UTC</createdTime>
+<ownerDesignName>a</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F17505A-A081-1ECA-5DFD-F0C9A229FD63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
