@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.9.0.final using JasperReports Library version 6.9.0-cb8f9004be492ccc537180b49c026951f4220bf3  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="31d6e16a-8fd1-4bcf-abd3-d6fb83f19725">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="dept_conn"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT "PRODUCT"."PROD_NAME",
+	"PRODUCT"."DATE_OF_PURCHASE",
+	"PRODUCT"."PRICE",
+	"PRODUCT"."PROD_ID",
+	"PRODUCT"."QUANTITY",
+	"PRODCAR"."CAR_ID",
+	"PRODCAR"."PROD_ID",
+	"ORDERINFO"."CUSTOMER_NAME",
+	"ORDERINFO"."PRICE",
+	"ORDERINFO"."QUANTITY",
+	"ORDERINFO"."DISCOUNT",
+	"ORDERINFO"."DATE_OF_PURCHASE",
+	"ORDERINFO"."ORDER_ID",
+	"ADMININFO"."PASSWORD",
+	"CAR"."CAR_ID",
+	"CAR"."CAR_TYPE",
+	"CAR"."CAR_NAME",
+	"ADMININFO"."GENDER",
+	"ADMININFO"."BIRTH_DATE",
+	"ADMININFO"."ID",
+	"ADMININFO"."USERNAME",
+	"ADMININFO"."ADDRESS"
+FROM "ADMININFO",
+	"CAR",
+	"ORDERINFO",
+	"PRODCAR",
+	"PRODUCT"]]>
+	</queryString>
+	<field name="PROD_NAME" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="PROD_NAME"/>
+	</field>
+	<field name="DATE_OF_PURCHASE" class="java.sql.Timestamp">
+		<property name="com.jaspersoft.studio.field.label" value="DATE_OF_PURCHASE"/>
+	</field>
+	<field name="PRICE" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.label" value="PRICE"/>
+	</field>
+	<field name="PROD_ID" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.label" value="PROD_ID"/>
+	</field>
+	<field name="QUANTITY" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.label" value="QUANTITY"/>
+	</field>
+	<field name="CAR_ID" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.label" value="CAR_ID"/>
+	</field>
+	<field name="COLUMN_7" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.label" value="PROD_ID"/>
+	</field>
+	<field name="CUSTOMER_NAME" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="CUSTOMER_NAME"/>
+	</field>
+	<field name="COLUMN_9" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.label" value="PRICE"/>
+	</field>
+	<field name="COLUMN_10" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.label" value="QUANTITY"/>
+	</field>
+	<field name="DISCOUNT" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.label" value="DISCOUNT"/>
+	</field>
+	<field name="COLUMN_12" class="java.sql.Timestamp">
+		<property name="com.jaspersoft.studio.field.label" value="DATE_OF_PURCHASE"/>
+	</field>
+	<field name="ORDER_ID" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.label" value="ORDER_ID"/>
+	</field>
+	<field name="PASSWORD" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="PASSWORD"/>
+	</field>
+	<field name="COLUMN_15" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.label" value="CAR_ID"/>
+	</field>
+	<field name="CAR_TYPE" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="CAR_TYPE"/>
+	</field>
+	<field name="CAR_NAME" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="CAR_NAME"/>
+	</field>
+	<field name="GENDER" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="GENDER"/>
+	</field>
+	<field name="BIRTH_DATE" class="java.sql.Timestamp">
+		<property name="com.jaspersoft.studio.field.label" value="BIRTH_DATE"/>
+	</field>
+	<field name="ID" class="java.math.BigDecimal">
+		<property name="com.jaspersoft.studio.field.label" value="ID"/>
+	</field>
+	<field name="USERNAME" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="USERNAME"/>
+	</field>
+	<field name="ADDRESS" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="ADDRESS"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="340" splitType="Stretch">
+			<textField>
+				<reportElement x="80" y="0" width="400" height="30" uuid="4db5ff9c-bf7d-46ab-a5c8-bf4e65c4bb13"/>
+				<textElement textAlignment="Center">
+					<font size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA["------------------------------------------------------------------------------------------------------------------------"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="80" y="136" width="400" height="30" uuid="060f992b-0e66-4111-8235-1d1a67cd3966"/>
+				<textElement textAlignment="Center">
+					<font size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA["------------------------------------------------------------------------------------------------------------------------"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="230" y="30" width="100" height="30" uuid="5848674c-069d-4115-b796-438741db463e"/>
+				<textElement>
+					<font size="20"/>
+				</textElement>
+				<text><![CDATA[GT CAR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="160" y="60" width="240" height="30" uuid="b237c7ac-a3d2-48b1-b6b7-a7035525a260"/>
+				<textElement>
+					<font size="18"/>
+				</textElement>
+				<text><![CDATA[Nablus / Asker / Water Street]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="165" y="91" width="230" height="30" uuid="8874c95a-cbc4-482e-895e-86111d4fc738"/>
+				<textElement>
+					<font size="18"/>
+				</textElement>
+				<text><![CDATA[www.facebook.com/GTCAR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="171" y="120" width="213" height="30" uuid="8a75c97a-6ca6-420d-8fc3-3de3103578fc"/>
+				<textElement>
+					<font size="18"/>
+				</textElement>
+				<text><![CDATA[Tele : +9720591234656]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="140" y="160" width="100" height="30" uuid="ff2ea2d3-d74a-40b5-b604-2f3e0830bb0b"/>
+				<textElement>
+					<font size="18"/>
+				</textElement>
+				<text><![CDATA[Order ID :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="140" y="200" width="150" height="30" uuid="96650721-3f5b-4cd3-870a-6cc49a2e1724"/>
+				<textElement>
+					<font size="18"/>
+				</textElement>
+				<text><![CDATA[Custemer name :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="80" y="230" width="400" height="30" uuid="37ffcafe-9415-4ddb-99dc-b23af79f330a"/>
+				<textElement textAlignment="Center">
+					<font size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA["------------------------------------------------------------------------------------------------------------------------"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="340" y="200" width="120" height="30" uuid="745bb415-3b82-40ee-ad7f-d7229d21bb74"/>
+				<textElement>
+					<font size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{CUSTOMER_NAME}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="80" y="260" width="120" height="30" uuid="8c7c3de0-b268-4d22-b6d5-211497c3d718"/>
+				<textElement>
+					<font size="18"/>
+				</textElement>
+				<text><![CDATA[Pruduct name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="227" y="260" width="100" height="30" uuid="f8ef6cdb-9f0c-4c16-b46e-c83a5dad1e5c"/>
+				<textElement>
+					<font size="18"/>
+				</textElement>
+				<text><![CDATA[Quantity]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="370" y="260" width="100" height="30" uuid="562768dc-89de-4a61-939e-e17166fa2be7"/>
+				<textElement>
+					<font size="18"/>
+				</textElement>
+				<text><![CDATA[Price]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="340" y="160" width="100" height="30" uuid="2a3777cd-e3ab-4c61-aeed-038bbc571b04"/>
+				<textElement>
+					<font size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ORDER_ID}.toString()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="80" y="308" width="100" height="30" uuid="a7e11d80-e63b-445d-861c-162be685c07c"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{PROD_NAME}.toString()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="227" y="308" width="100" height="30" uuid="25ff3e00-0880-4979-889c-020e2d37f250"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{COLUMN_10}.toString()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="310" width="100" height="30" uuid="6deb2585-8fe2-469e-ac6b-69a929c6161c"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{PRICE}.toString()]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<columnFooter>
+		<band height="134" splitType="Stretch">
+			<textField>
+				<reportElement x="80" y="100" width="400" height="30" uuid="f80cbc8e-c198-4b87-b10a-dce7e2b9a34a"/>
+				<textElement textAlignment="Center">
+					<font size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA["------------------------------------------------------------------------------------------------------------------------"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="80" y="60" width="130" height="30" uuid="224b7a26-0f0e-410f-b3d3-20ed7ba1fd5e"/>
+				<textElement>
+					<font size="18"/>
+				</textElement>
+				<text><![CDATA[Discount : ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="80" y="20" width="130" height="30" uuid="f725f4a7-b7ca-4e36-8332-b7c8c900a0b5"/>
+				<textElement>
+					<font size="18"/>
+				</textElement>
+				<text><![CDATA[Total amount :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="80" y="0" width="400" height="30" uuid="29f11dbc-1a24-4c39-99cf-2b745cdd27e3"/>
+				<textElement textAlignment="Center">
+					<font size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA["------------------------------------------------------------------------------------------------------------------------"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="307" y="30" width="100" height="30" uuid="8fecb507-4bcc-4f52-937a-9c8f128581e8"/>
+				<textElement>
+					<font size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{COLUMN_10}.multiply($F{PRICE} )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="307" y="60" width="100" height="30" uuid="099f620b-2f7c-47ed-908a-df5984067689"/>
+				<textElement>
+					<font size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{DISCOUNT}.toString()]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="70" splitType="Stretch">
+			<staticText>
+				<reportElement x="80" y="0" width="130" height="30" uuid="6b6dae4e-def1-4c2d-8fd9-7c8ae1e57e01"/>
+				<textElement>
+					<font size="18"/>
+				</textElement>
+				<text><![CDATA[Amount to Buy : ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="300" y="10" width="100" height="30" uuid="c6c62779-0a00-4e4d-a9a4-224153bd56f7"/>
+				<textElement>
+					<font size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{PRICE}.subtract( $F{DISCOUNT} )]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
